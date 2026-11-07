@@ -142,7 +142,7 @@ function MarkdownAnswer({ content }) {
 
 function App() {
 
-const API = 'https://aiprompt.infinityfreeapp.com/backend/';
+const API = '/backend/';
 
   const [prompts, setPrompts] = useState([])
   const [selectedPrompt, setSelectedPrompt] = useState('')

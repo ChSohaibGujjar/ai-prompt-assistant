@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/backend/:path*",
+      "destination": "https://aiprompt.infinityfreeapp.com/backend/:path*"
+    }
+  ]
+}
